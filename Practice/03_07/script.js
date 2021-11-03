@@ -7,3 +7,17 @@
  * - Find an object that has another object inside of it to create a nested object.
  * - Test your objects in the browser console by accessing the entire object and its specific properties.
  */
+
+const phone = {
+    name: "Iphone",
+    batteryPercentage: 100,
+    color: "black",
+    size: {
+        width: 2,
+        height: 6,
+    },
+    phoneOn: false,
+
+};
+
+console.log("Phone:", phone)
